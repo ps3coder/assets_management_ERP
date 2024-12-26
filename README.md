@@ -29,11 +29,10 @@ This project is a Mini ERP System designed to manage products, sales orders, and
 ---
 
 ###ScreenShots
-![Form Screenshot](https://github.com/ps3coder/Project_images_url/blob/main/Screenshot%202024-12-13%20203202.png)
-![Form Screenshot](https://github.com/ps3coder/Project_images_url/blob/main/Screenshot%202024-12-13%20203202.png)
-![Form Screenshot](https://github.com/ps3coder/Project_images_url/blob/main/Screenshot%202024-12-13%20203202.png)
-![Form Screenshot](https://github.com/ps3coder/Project_images_url/blob/main/Screenshot%202024-12-13%20203202.png)
-![Form Screenshot](https://github.com/ps3coder/Project_images_url/blob/main/Screenshot%202024-12-13%20203202.png)
+![Sales Order Page Screenshot](https://github.com/ps3coder/Project_images_url/blob/main/Screenshot%202024-12-26%20193641.png)
+![Product FORM Page Screenshot](https://github.com/ps3coder/Project_images_url/blob/main/Screenshot%202024-12-26%20193720.png)
+![POSTGRESS Screenshot](https://github.com/ps3coder/Project_images_url/blob/main/Screenshot%202024-12-26%20193817.png)
+![Summary Screenshot](https://github.com/ps3coder/Project_images_url/blob/main/Screenshot%202024-12-26%20195851.png)
 
 
 ### **Project Setup**  
@@ -69,32 +68,6 @@ This project is a Mini ERP System designed to manage products, sales orders, and
 
 ---
 
-### **Folder Structure**  
-
-```
-my-app/
-├── prisma/
-│   └── schema.prisma        
-├── pages/
-│   ├── api/               
-│   │   ├── products/         
-│   │   ├── sales-orders/     
-│   │   └── reports/        
-│   ├── products/             
-│   ├── sales-orders/        
-│   └── reports/        
-├── components/              
-├── services/             
-├── lib/                  
-├── public/                   
-├── styles/                   
-└── README.md                  
-```
-
----
-
-### **Core Features**
-
 #### **Products**  
 
 **Database Schema:**
@@ -112,9 +85,11 @@ my-app/
 - `DELETE /api/products/[id]`
 
 **Components:**
-- Product List Page (`ProductList.js`)  
-- Product Detail Page (`ProductDetail.js`)  
-- Product Form for Create/Update  
+- `ProductAddForm.js`
+- `ProductList.js`
+- `SalesOrderForm.js`
+- `SalesSummary.js`
+- `SalesUpdateForm.js`
 
 ---
 
